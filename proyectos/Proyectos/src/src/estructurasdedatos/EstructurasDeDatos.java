@@ -5,9 +5,12 @@
  */
 package estructurasdedatos;
 
+import estructurasdedatos.cap1.complejidad.Ciclos;
+import estructurasdedatos.cap1.complejidad.Condicionales;
+
 /**
  *
- * @author tusk
+ * Leidy Danyeli Salazar 1088013215
  */
 public class EstructurasDeDatos {
 
@@ -15,7 +18,12 @@ public class EstructurasDeDatos {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
+       
+        Ciclos tareasciclos = new Ciclos();
+                tareasciclos.tareasciclos();
+        
+        Condicionales tareacondicionales = new Condicionales();
+                tareacondicionales.tareascondicionales();
     
+    }
 }
