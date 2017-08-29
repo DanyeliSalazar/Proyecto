@@ -1,19 +1,3 @@
-import java.lang.Math; // headers MUST be above the first class
-
-
-// one class needs to have a main() method
-public class HelloWorld
-{
-  // arguments are passed using the text field below this editor
-  public static void main(String[] args)
-  {
-   	Persona danye = new Persona();
-    danye.setNombre(" Danyeli");
-    System.out.println("soy yo" + danye.getNombre());
-     
-  }
-}
-
 //Danyeli Salazar
 
 public class Persona{
