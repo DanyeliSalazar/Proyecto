@@ -18,12 +18,17 @@ public class EstructurasDeDatos {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       
-        Ciclos tareasciclos = new Ciclos();
-                tareasciclos.tareasciclos();
+        /*Ciclos tallerciclos = new Ciclos();
         
-        Condicionales tareacondicionales = new Condicionales();
-                tareacondicionales.tareascondicionales();
-    
+        tallerciclos.tareaciclos();
+        
+        Condicionales tallercondicionales = new Condicionales();
+         
+        tallercondicionales.tareacondicionales();*/
+        
+        EjerciciosComplejidad EjemplosComplejidad = new EjerciciosComplejidad() ;
+        
+         EjemplosComplejidad.EjemplosComplejidad();
     }
+    
 }
