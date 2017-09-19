@@ -3,12 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package estructurasdedatos.utiles.nodos;
+package lista;
 
 /**
  *
- * @author tusk
+ * //Leidy Danyeli Salazar
  */
-public class NodoDoble {
+public class Nododoble<T> {
+    
+   private Nododoble<T>anterior;
+   private Nododoble<T> siguiente;
+   private T dato;
+   
+   public Nododoble (T dato){
+       
+   }
+   
+   
     
 }
