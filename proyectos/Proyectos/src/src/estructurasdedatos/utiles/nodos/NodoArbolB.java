@@ -7,8 +7,33 @@ package estructurasdedatos.utiles.nodos;
 
 /**
  *
- * @author tusk
+ * @author Leidy Danyeli Salazar
  */
-public class NodoArbolB {
+public class NodoArbolBinario {
+    
+    private int dato;    
+    private NodoArbolBinario nodoDer;    
+    private NodoArbolBinario nodoIzq;
     
+    public void NodoArbolBinario(int dato) { 
+        this.dato = dato;}
+    
+    public int getDato() {
+        return dato;}
+    
+    public void setDato(int dato) { 
+        this.dato = dato;}
+    
+    public NodoArbolBinario getnodoDer() { 
+        return nodoDer; }
+    
+    public void setnodoDer (NodoArbolBinario nodoDer) {   
+        this.nodoDer = nodoDer;}
+    
+        public NodoArbolBinario getnodoIzq() {      
+        return nodoIzq;}
+    
+    public void setnodoIzq (NodoArbolBinario nodoIzq) { 
+        this.nodoIzq = nodoIzq;
+    }
 }
