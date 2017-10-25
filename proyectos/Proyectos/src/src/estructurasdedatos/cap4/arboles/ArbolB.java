@@ -7,7 +7,7 @@ package estructurasdedatos.cap4.arboles;
 
 /**
  *
- * @author tusk
+ * @author Leidy Danyeli Salazar
  */
 public class ArbolBinario {
     
